@@ -13,6 +13,15 @@
 		AF144BA2243A41990016B639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF144BA0243A41990016B639 /* Main.storyboard */; };
 		AF144BA4243A419D0016B639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF144BA3243A419D0016B639 /* Assets.xcassets */; };
 		AF144BA7243A419D0016B639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF144BA5243A419D0016B639 /* LaunchScreen.storyboard */; };
+		AF144BAF243A42420016B639 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF144BAE243A42420016B639 /* Model.swift */; };
+		AF144BB2243A45DE0016B639 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF144BB0243A45DE0016B639 /* FriendCell.swift */; };
+		AF144BB3243A45DE0016B639 /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF144BB1243A45DE0016B639 /* FriendCell.xib */; };
+		AF144BB6243A45FB0016B639 /* FamilyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF144BB4243A45FB0016B639 /* FamilyCell.swift */; };
+		AF144BB7243A45FB0016B639 /* FamilyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF144BB5243A45FB0016B639 /* FamilyCell.xib */; };
+		AF144BBA243A488E0016B639 /* FriendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF144BB8243A488E0016B639 /* FriendHeaderView.swift */; };
+		AF144BBB243A488E0016B639 /* FriendHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF144BB9243A488E0016B639 /* FriendHeaderView.xib */; };
+		AF144BBE243A4AE80016B639 /* FamilyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF144BBC243A4AE80016B639 /* FamilyHeaderView.swift */; };
+		AF144BBF243A4AE80016B639 /* FamilyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF144BBD243A4AE80016B639 /* FamilyHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		AF144BA3243A419D0016B639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF144BA6243A419D0016B639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF144BA8243A419D0016B639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF144BAE243A42420016B639 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AF144BB0243A45DE0016B639 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		AF144BB1243A45DE0016B639 /* FriendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
+		AF144BB4243A45FB0016B639 /* FamilyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyCell.swift; sourceTree = "<group>"; };
+		AF144BB5243A45FB0016B639 /* FamilyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FamilyCell.xib; sourceTree = "<group>"; };
+		AF144BB8243A488E0016B639 /* FriendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendHeaderView.swift; sourceTree = "<group>"; };
+		AF144BB9243A488E0016B639 /* FriendHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendHeaderView.xib; sourceTree = "<group>"; };
+		AF144BBC243A4AE80016B639 /* FamilyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyHeaderView.swift; sourceTree = "<group>"; };
+		AF144BBD243A4AE80016B639 /* FamilyHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FamilyHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,15 @@
 				AF144B9A243A41990016B639 /* AppDelegate.swift */,
 				AF144B9C243A41990016B639 /* SceneDelegate.swift */,
 				AF144B9E243A41990016B639 /* ViewController.swift */,
+				AF144BAE243A42420016B639 /* Model.swift */,
+				AF144BB0243A45DE0016B639 /* FriendCell.swift */,
+				AF144BB1243A45DE0016B639 /* FriendCell.xib */,
+				AF144BB4243A45FB0016B639 /* FamilyCell.swift */,
+				AF144BB5243A45FB0016B639 /* FamilyCell.xib */,
+				AF144BB8243A488E0016B639 /* FriendHeaderView.swift */,
+				AF144BB9243A488E0016B639 /* FriendHeaderView.xib */,
+				AF144BBC243A4AE80016B639 /* FamilyHeaderView.swift */,
+				AF144BBD243A4AE80016B639 /* FamilyHeaderView.xib */,
 				AF144BA0243A41990016B639 /* Main.storyboard */,
 				AF144BA3243A419D0016B639 /* Assets.xcassets */,
 				AF144BA5243A419D0016B639 /* LaunchScreen.storyboard */,
@@ -127,7 +154,11 @@
 			files = (
 				AF144BA7243A419D0016B639 /* LaunchScreen.storyboard in Resources */,
 				AF144BA4243A419D0016B639 /* Assets.xcassets in Resources */,
+				AF144BB7243A45FB0016B639 /* FamilyCell.xib in Resources */,
 				AF144BA2243A41990016B639 /* Main.storyboard in Resources */,
+				AF144BBF243A4AE80016B639 /* FamilyHeaderView.xib in Resources */,
+				AF144BB3243A45DE0016B639 /* FriendCell.xib in Resources */,
+				AF144BBB243A488E0016B639 /* FriendHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +172,11 @@
 				AF144B9F243A41990016B639 /* ViewController.swift in Sources */,
 				AF144B9B243A41990016B639 /* AppDelegate.swift in Sources */,
 				AF144B9D243A41990016B639 /* SceneDelegate.swift in Sources */,
+				AF144BAF243A42420016B639 /* Model.swift in Sources */,
+				AF144BB2243A45DE0016B639 /* FriendCell.swift in Sources */,
+				AF144BBA243A488E0016B639 /* FriendHeaderView.swift in Sources */,
+				AF144BB6243A45FB0016B639 /* FamilyCell.swift in Sources */,
+				AF144BBE243A4AE80016B639 /* FamilyHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2D242JD56;
 				INFOPLIST_FILE = CollectionViewHeaderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2D242JD56;
 				INFOPLIST_FILE = CollectionViewHeaderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
