@@ -61,10 +61,16 @@ extension ViewController: UICollectionViewDataSource {
             
             switch item.type {
             case .friends:
-                let friendHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "FriendHeaderView", for: indexPath) //as! FriendHeaderView
+//                let friendHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "FriendHeaderView", for: indexPath)
+                
+                // FIXME: To avoid crash, uncomment previous line and comment next line
+                let friendHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "FriendHeaderView", for: indexPath) as! FriendHeaderView
                 return friendHeader
             case .families:
-                let friendHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "FamilyHeaderView", for: indexPath) //as! FamilyHeaderView
+//                let friendHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "FamilyHeaderView", for: indexPath) 
+                
+                // FIXME: To avoid crash, uncomment previous line and comment next line
+                let friendHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "FamilyHeaderView", for: indexPath) as! FamilyHeaderView
                 return friendHeader
             }
         default:
